@@ -1,0 +1,58 @@
+# 環境與本機設定
+.env
+.env.*
+wp-config.php
+
+# 認證、秘密與私鑰；仍需審查所有候選內容
+credentials
+credentials.*
+credentials/
+secrets
+secrets.*
+secrets/
+api-key
+api-key.*
+api-keys
+api-keys.*
+api_keys
+api_keys.*
+tokens
+tokens.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# 日誌、快取與暫存
+*.log
+logs/
+cache/
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.#*
+\#*\#
+
+# 編輯器與作業系統 metadata
+.vscode/
+.idea/
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# 依賴與資料庫匯出，不排除外掛原始 PHP/CSS/JS/Markdown
+node_modules/
+vendor/
+*.sql
+*.sql.gz

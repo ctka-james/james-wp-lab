@@ -1,0 +1,39 @@
+.jtl-greeting {
+	margin: 1.5rem 0;
+	padding: 1.25rem;
+	border: 1px solid #c3d7ea;
+	border-radius: 0.5rem;
+	background-color: #f5faff;
+}
+
+.jtl-greeting__title {
+	margin: 0 0 0.75rem;
+	font-size: 1.25rem;
+}
+
+.jtl-greeting__toggle {
+	padding: 0.625rem 1rem;
+	border: 1px solid #135e96;
+	border-radius: 0.25rem;
+	background-color: #135e96;
+	color: #ffffff;
+	font: inherit;
+	cursor: pointer;
+}
+
+.jtl-greeting__toggle:hover,
+.jtl-greeting__toggle:focus-visible {
+	background-color: #0a4b78;
+}
+
+.jtl-greeting__toggle:focus-visible {
+	outline: 3px solid #72aee6;
+	outline-offset: 3px;
+}
+
+.jtl-greeting__details {
+	margin: 1rem 0 0;
+	padding: 0.75rem;
+	border-left: 4px solid #72aee6;
+	background-color: #ffffff;
+}
